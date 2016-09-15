@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GamesOfGeeksters</title>
+	<script src="jquery.js"></script>
+	<script src="./scripts/userState.js"></script>
+	<script src="./scripts/itemState.js"></script>
+	<script src="./scripts/monstersState.js"></script>
+	<script src="./scripts/actions.js"></script>
+	<script src="./scripts/render.js"></script>
+</head>
+<body>
+	<div class="userInfo">
+		<fieldset>
+			<legend>Player info</legend>
+			Name : <span id="name"></span><br>
+			Level : <span id="level"></span><br>
+			Exp : <span id="exp"></span> / <span id="nextlvlexp"></span><br>
+			HP : <span id="hp"></span> / <span id="maxhp"></span><br>
+			SP : <span id="sp"></span><br>
+			DMG : <span id="dmg"></span><br>
+			Money : <span id="money"></span>
+		</fieldset>
+	</div>
+	<div class="battle">
+		<fieldset>
+			<legend>Battle</legend>
+			<button onclick="goToDungeon()">Пойти в педземелие</button>
+		</fieldset>
+	</div>
+	<div class="hospital">
+		<fieldset>
+			<legend>Hospital</legend>
+			<button onclick="heal()">Вылечиться - 15$</button>
+		</fieldset>
+	</div>
+
+	<div class="shop">
+		<fieldset>
+			<legend>Shop</legend>
+	
+		</fieldset>
+	</div>
+</body>
+</html>
