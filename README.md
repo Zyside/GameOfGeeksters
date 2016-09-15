@@ -1,1 +1,2 @@
-GameOfGeeksters
+GameOfGeeksters  
+npm install  
